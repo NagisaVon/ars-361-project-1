@@ -600,5 +600,10 @@ button:active:enabled {
     body {
         overflow: scroll;
     }
-    
+    .button-minimize{
+        display: none;
+    }
+    .button-maximize{
+        display: none;
+    }
 }
