@@ -8,6 +8,8 @@
 	padding: 0;
 }
 
+
+
 body,
 html {
 	-webkit-text-size-adjust: 100%;
@@ -564,4 +566,39 @@ button:active:enabled {
     left: 72vw; 
     top: 30vh; 
     width: auto;
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        zoom: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .row {
+        all: inherit;
+    }
+    
+    .window {
+        position: static !important;
+        top:0 !important; 
+        left:0 !important;
+    }
+
+    .frame{
+        all: inherit;
+        padding: 0;
+    }
+    .app-desktop {
+        height: auto;
+    }
+    .taskbar {
+        position: relative;
+    }
+    body {
+        overflow: scroll;
+    }
+    
 }
